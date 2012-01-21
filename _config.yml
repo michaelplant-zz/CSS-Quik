@@ -13,10 +13,10 @@ production_url : http://username.github.com # or your custom domain name
 title : Jekyll Bootstrap
 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Mike Plant
+  email : msplant@gmail.com
+  github : michaelplant
+  twitter : michaelplant
   feedbuder : feedname
 
 exclude: .rbenv-version
