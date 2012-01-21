@@ -9,7 +9,7 @@ var:
   tags_path : /tags.html
   rss_path: /atom.xml
 
-production_url : http://username.github.com # or your custom domain name
+production_url : http://michaelplant.github.com/CSS-Quik/ # or your custom domain name
 title : Jekyll Bootstrap
 
 author :
