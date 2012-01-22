@@ -1,0 +1,26 @@
+@charset "utf-8";
+#main-content {
+	width:100%;
+	min-height:450px;
+	position:relative;
+}
+#column-one {
+	float:left;
+	display:inline;
+	width:20%;
+	margin-right:5%;
+}
+#column-two {
+	float:left;
+	display:inline;
+	width:75%;
+}
+.three #column-two {
+	width:50%;
+}
+.three #column-three {
+	float:left;
+	display:inline;
+	width:20%;
+	margin-left:5%;
+}
