@@ -26,8 +26,9 @@ h5 {
 }
 #container {
 	padding-top:120px;
-	background:url(../images/css-quik.png) no-repeat center center;
+	background:url(../images/css-quik.png) no-repeat center 5px;
 }
 .download {
 	float:right;
+	margin-top:25px;
 }
