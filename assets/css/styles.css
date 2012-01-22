@@ -1,11 +1,4 @@
-@charset "utf-8";
-/** base.css contains the reset to even out cross-browser display**/
-@import "base.css";
-/** helpers.css contains helper classes - documentation: http://cssquik.com/docs **/
-@import "helpers.css";
-/** columns.css contains the column styles **/
-@import "columns.css";
-/** Style like you normally would. **/
+
 html {
 	background:url(../images/bg-body.png) repeat-x top left;
 	text-align:center;
