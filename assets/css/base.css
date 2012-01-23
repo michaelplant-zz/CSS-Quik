@@ -16,7 +16,6 @@ p,
 blockquote,
 pre,
 a,
-a img,
 abbr,
 acronym,
 address,
@@ -26,7 +25,6 @@ code,
 del,
 dfn,
 em,
-font,
 img,
 ins,
 kbd,
@@ -40,6 +38,10 @@ sub,
 sup,
 tt,
 var,
+b,
+u,
+i,
+center,
 dl,
 dt,
 dd,
@@ -57,17 +59,52 @@ tfoot,
 thead,
 tr,
 th,
-td {
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
-  border-collapse: collapse;
-  border-spacing: 0;
   outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
   font-size: 100%;
   font-family: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input, select, textarea {
+  font-size: 100%;
+  font-family: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 /* Miscellaneous conveniences: */
 h1,
@@ -83,7 +120,7 @@ ul,
 ol,
 dl,
 address {
-  margin: .5em 0;
+  margin: .75em 0;
   padding: 0;
 }
 p,
@@ -93,20 +130,13 @@ ul,
 ol,
 dl,
 address {
-  line-height: 150%;
+  line-height: 140%;
 }
 li, dd, blockquote {
   margin-left: 1em;
 }
 form label {
   cursor: pointer;
-}
-fieldset {
-  border: none;
-}
-input, select, textarea {
-  font-size: 100%;
-  font-family: inherit;
 }
 em {
   font-style: italic;
@@ -117,6 +147,7 @@ h3,
 h4,
 h5,
 h6,
-strong {
+strong,
+b {
   font-weight: bold;
 }
